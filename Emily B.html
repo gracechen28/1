@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+    function run(){
+        document.getElementById("word").innerHTML="Emily Wu 的學院是雷文克勞"
+    }
+</script>
+<body>
+    <center>
+  		<font size="6" color="green"><b>線上檢測</b></font>
+        <h1>啊哈！你一定就是今年的新生<span style="color:forestgreen">Emily Wu</span>吧！現在回答我幾個問題，把你分類進入最正確的學院裡吧！  </h1>
+
+  	</center><br>
+        <p>1.如果可以選一隻特殊的魔法生物當作寵物，妳會選擇？</p>
+  		<p>
+  			<input type="radio" name="Q1" value="1">玻璃獸<br>
+  			<input type="radio" name="Q1" value="2">木精<br>
+  			<input type="radio" name="Q1" value="3">拜月獸<br>
+  			<input type="radio" name="Q1" value="4">幻影猿<br> 
+  		</p>
+  		<p>2.結束了疲勞的一天後，最想看哪一類型的影片？</p>
+  		<p>
+  			<input type="radio" name="Q2" value="1">運動比賽<br>
+  			<input type="radio" name="Q2" value="2">經典電影<br>
+  			<input type="radio" name="Q2" value="3">搞笑短片<br>   <!-- C -->
+  			<input type="radio" name="Q2" value="4">熱門韓劇<br>
+  		</p>
+  		<p>3.如果要選一個人跟你困在電梯裡五個小時，你會選擇？</p>
+  		<p>
+  		    <input type="radio" name="Q2" value="1">郁婷<br>
+  			<input type="radio" name="Q2" value="2">姐姐<br>
+  			<input type="radio" name="Q2" value="3">巧瑗<br> 
+  			<input type="radio" name="Q2" value="4">品方<br>
+  		</p>
+  		<p>4.你覺得巧瑗像是哈利波特裡的哪一個學生？</p>
+  		<p>
+  		    <input type="text" id="yuan" >
+  		</p>
+  		<p>5.你覺得露水像是迪士尼的哪一個角色？</p>
+  		<p>
+  		    <input type="text" id="ting" >
+  		</p>
+  		<p>5.你覺得品方像是韓劇裡的哪一個反派？</p>
+  		<p>
+  		    <input type="text" id="pin" >
+  		</p>
+        <hr>
+        <input type="button" value="Finish The Test" onclick="run()">
+        <h3 id="word">學院結果</h3>
+</body>
+</html>
